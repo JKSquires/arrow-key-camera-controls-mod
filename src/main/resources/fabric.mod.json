@@ -1,0 +1,26 @@
+{
+	"schemaVersion": 1,
+	"id": "cameramod",
+	"version": "${version}",
+	"name": "Arrow Key Camera Mod",
+	"authors": [
+		"Jason Squires"
+	],
+	"license": "CC0-1.0",
+	"icon": "assets/cameramod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"client": [
+			"com.cameramod.CameramodClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.15.7",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
